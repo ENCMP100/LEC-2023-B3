@@ -29,23 +29,23 @@ myDeg = 30
 radian_value = radians(myDeg)
 
 # Converting radians to degrees
-#myRad = 0.525
-#degree_value =
+myRad = 0.525
+degree_value = degrees(myRad)
 
 # sin, cos, and tan values of 30 degrees
-#angleInDegrees = 30
+angleInDegrees = 30
 
-#sin_value = 
-#cos_value = 
-#tan_value = 
+sin_value = sin(radians(angleInDegrees))
+cos_value = cos(radians(angleInDegrees))
+tan_value = tan(radians(angleInDegrees))
 
 
 # Exponent to the exponent (e.g. e to-the x)
-#n = 3
-#e_to_the_3 =
+n = 3
+e_to_the_3 = exp(n)
 
 # Logarithm
-#natural_log_of_20 = 
+natural_log_of_20 = log(20)
 
-#base_10_log_of_1000 = 
+base_10_log_of_1000 = log(1000, 10)
 
