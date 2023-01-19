@@ -13,8 +13,8 @@ theta = np.arange(0, 2 * np.pi, 0.1) # angle in radians
 sin_theta = np.sin(theta)
 cos_theta = np.cos(theta)
 
-plt.plot(theta, sin_theta, color='r', label='sin')
-plt.plot(theta, cos_theta, color='b', label='blue')
+plt.plot(theta, sin_theta, color='r', label='sine')
+plt.plot(theta, cos_theta, color='b', label='cosine')
 plt.xlabel('angle (radians)')
 plt.ylabel('function value')
 plt.title('Trigonometric Functions')
@@ -57,7 +57,7 @@ plt.bar(
         label = "Jim", 
         color = "m",      # m for magenta 
         align =  "center",
-        alpha = 0.5) 
+        alpha = 0.75) 
 
 plt.bar(
         semester, 
@@ -92,17 +92,19 @@ plt.show()
 theta = np.radians(np.arange(10000)) # angle in radians
 y = 1 + np.cos(theta/10) * np.sin(theta)/theta # Some simulated waveform
 
-plt.subplot(121)
+plt.subplot(221)
 plt.plot(theta, y)
 plt.grid(visible=True)
 plt.title('Full Wave Form')
 
-plt.subplot(122)
+plt.subplot(222)
 plt.plot(theta, y)
 plt.axis([15, 75, 0.8, 1.2])
-plt.xticks(np.arange(15, 75, 10))
+plt.xticks(np.arange(15, 75, 5), rotation = 'vertical')
 plt.grid(visible=True)
 plt.title('Zoomed Interval')
+
+plt.subplot(223)
 
 
 

@@ -58,7 +58,6 @@ x2.shape = 4,-1  # -1 indicates that the columns should be calculated automatica
 
 
 
-
 # view function
 # =============
 #

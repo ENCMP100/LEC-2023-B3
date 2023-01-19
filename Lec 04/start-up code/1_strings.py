@@ -27,7 +27,7 @@ result2 = string_1 + " " + string_2
 # We can convert such types to strings using the str function before 
 # concatenating them
 
-name = "John"
+name = "Tim"
 age = 16
 sentense = name + " is " + str(age) + " years old."
 print(sentense)
@@ -48,3 +48,4 @@ fullName = firstName + " " + lastName
 fact = fullName + " is Awesome!!!";
 print(fact)
 
+num = input("Enter a number: ")
