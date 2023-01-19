@@ -9,7 +9,9 @@ Created on Wed Jan 18 20:32:47 2023
 
 x = True
 y = False
-a = 20 <= 80;
+
+a = 20 <= 80
+b = 20 <= 10
 
 # Boolean operators:
 # ==================
