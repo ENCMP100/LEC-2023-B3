@@ -24,6 +24,11 @@ print("\nSecond row:", a[1,:])
 
 # Referring to the entire third column
 print("\nThird Column:", a[:,2])
+c = a[:,2]
+
+print(a[:,:])
+
+a[:,:] = 0
 
 # Referencing multiple columns and multiple rows
 b = np.array([[1,2,3,4,5,6,7,8,9,10], 

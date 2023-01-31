@@ -3,7 +3,7 @@
 #
 
 # Obtain the floor number from the user as an integer.
-floor = int(input("Floor: "))
+floor = int(input("Floor based on elevator button: "))
 
 # Adjust floor if necessary.
 if floor > 13 :
