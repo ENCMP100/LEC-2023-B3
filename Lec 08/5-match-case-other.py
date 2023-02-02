@@ -4,7 +4,7 @@ Created on Wed Jan 25 18:52:37 2023
 @author: ranaweer
 """
 
-dayNum = int(input("Input the day of week (1 tot 7): "))
+dayNum = int(input("Input the day of week (1 to 7): "))
 
 print("\nPrinting day using if-elif-else")
 print("===============================\n")

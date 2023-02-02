@@ -103,7 +103,7 @@ x4_copy = x4.copy()
 print('x4:', x4)
 print('x4_copy:', x4_copy)
 
-# Change the 3nd element inf x4 to 100
+# Change the 2nd element inf x4 to 100
 x4[1] = 100
 print('x4 after changing x4:', x4)
 print('x4_copy after changing x4:', x4_copy)
