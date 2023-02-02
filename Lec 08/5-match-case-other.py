@@ -40,7 +40,7 @@ match dayNum:
         print("Thursday")
     case 5:
         print("Friday")
-    case _:
+    case other:
         print("Weekend")
         
 
