@@ -31,7 +31,7 @@ for letter in string_value:
     
 # Iterating through a range of values using a FOR loop
 
-for n in range(1, 10):
+for n in range(10):
     print(n)
     
 odd_numbers = range(1, 10, 2)

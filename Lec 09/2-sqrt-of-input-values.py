@@ -5,6 +5,7 @@ Created on Wed Feb  1 20:57:37 2023
 """
 import numpy as np
 
+"""
 # While loop continues as long as its test "condition" is True
 
 # Example 1
@@ -19,7 +20,7 @@ while num >= 0:
 
 
 # Example 2
-# The following loop continues until you enter an empty string
+# The following loop continues until you enter an324 empty string
 num_string = input('Enter a number: ')
 while num_string != "":
     num = float(num_string)
@@ -29,7 +30,7 @@ while num_string != "":
     # Take the next number
     num_string = input('Enter a number: ')
 
-
+"""
 # Example 3
 # In this example, we set the condition of the while loop 
 # to be True, so it will run as an infinite loop.
