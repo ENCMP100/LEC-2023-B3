@@ -22,6 +22,8 @@ index2 = N//2 + int(np.trunc(np.random.random() * N//2))
 #for the two players
 if index2 == index1 or index2 == index1+1:
     index2 = index1 + 2
+elif index2 == N-1:
+    index2 = N-2 # we don't want the player 2 on the last building either
 
 #Plotting the stage and the players
 plt.bar(stageX, stageY, width=BW*0.9)
