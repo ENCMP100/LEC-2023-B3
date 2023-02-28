@@ -4,16 +4,16 @@ Created on Tue Feb  7 14:33:03 2023
 @author: ranaweer
 """
 
-is_int = False
-while not is_int:
+is_non_digit = True
+while is_non_digit:
     input_str = input("Enter an integer: ")
-    
-    is_int = True
+
+    is_non_digit = False
     for c in input_str:
         if not (c>='0' and c <='9'):
-            is_int = False;
+            is_non_digit = True;
             break # breaking for c in input_str
 
-
 print("The number you entered is", int(input_str))
+
 

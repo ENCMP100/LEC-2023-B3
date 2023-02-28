@@ -12,7 +12,7 @@ salary = 0.0
 
 # Process data until the sentinel is entered.
 while salary >= 0.0 :
-   salary = float(input("Enter a salary or -1 to finish: "))
+   salary = float(input())
    if salary >= 0.0 :
       total = total + salary
       count = count + 1

@@ -12,6 +12,7 @@ def cubeVolume2(sideLength):
     return volume
 
 
+
 ## Computes the volumne of a cube
 # @param sideLength: the length of a side
 # @return 
@@ -22,6 +23,7 @@ def cubeVolume3(sideLength):
     if sideLength >= 0:        
         volume = sideLength ** 3
         return volume
+    
 
 # Testing
 print("cubeVolume2(5) =", cubeVolume2(5))
