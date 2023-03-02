@@ -7,7 +7,7 @@ def cubeVolume(sideLength):
     return volume
     
 
-side = -5
+side = 5
 vol = cubeVolume(side)
 print(f"Volume of a cube with side {side} is {vol}")
 print("Volume of a cube with side", side, "is", vol)
