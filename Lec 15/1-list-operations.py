@@ -74,6 +74,11 @@ twister = ['Betty', 'Botter', 'bought', 'a', 'bit', 'of', 'butter',
 
 print(twister.index('butter')) # index of first occurance from the beginning
 
-print(twister.index('butter', 10, 20)) # index of occurance starting from
+print(twister.index('butter', 10)) # index of occurance starting from
                                        # index 10 (inclusive)
-                                       
+                
+               
+                
+               
+                
+               

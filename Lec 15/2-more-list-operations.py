@@ -18,14 +18,14 @@ print(monthlyRainFall)
 #        in the same list (i.e. the list gets modified)
 #        Note: lower-case letters have a "higher value" 
 #        than upper case letters
-names = ['Fred', 'Ann', 'Sue', 'betsy', 'Zhan']
+names = ['Fred', 'Ann', 'Sue', 'betsy', 'Zhang']
 print(names)
 
 names.sort()
 print(names)
 
 
-## SUM, NAX, MIN on nunerical lists
+## SUM, MAX, MIN on nunerical lists
 scores = [100, 50, 50, 150, 200]
 print('SUM:', sum(scores))
 print('MAX:', max(scores))
@@ -75,7 +75,7 @@ quarter4 = temperatures[9:] # values at indicies from 9 to end
 print('quarter4:', quarter4)
                                  
 # changing values in a slize will change the original list
-temperatures[3:6] = [1, 2, 3]; 
+temperatures[3:6] = [1, 2, 3]
 print('temperatures:', temperatures)
 
 temperatures[6:9] = [0] * 3 # replicate [0] 3 times, resulting in [0, 0, 0]
