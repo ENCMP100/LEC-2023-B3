@@ -7,9 +7,14 @@ def cubeVolume(sideLength):
     return volume
     
 
-side = 5
-vol = cubeVolume(side)
-print(f"Volume of a cube with side {side} is {vol}")
-print("Volume of a cube with side", side, "is", vol)
+side = -5
+volume = cubeVolume(side)
+vol2 = cubeVolume(10)
+print(f"Volume of a cube with side {side} is {volume}")
+print("Volume of a cube with side", side, "is", volume)
+print("Volume of a cube with side 10 is", vol2)
+
+
+
 
 

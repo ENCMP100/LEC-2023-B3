@@ -27,6 +27,16 @@ print()
 string_value = 'Alberta'
 for letter in string_value:
     print(letter)
+ 
+# If we want to use the index in each iteration cycle, we should rather
+# iterate through indicies and then access the element at a particular index
+# as string_value[index]. See the following example of iterating through indicies
+# this way.
+print()
+string_value = 'Alberta'
+for index in range(len(string_value)):
+    letter = string_value[index]
+    print('Letter', index, 'is', letter)
     
     
 # Iterating through a range of values using a FOR loop

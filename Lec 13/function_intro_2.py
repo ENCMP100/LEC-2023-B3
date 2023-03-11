@@ -23,6 +23,7 @@ def cubeVolume3(sideLength):
     if sideLength >= 0:        
         volume = sideLength ** 3
         return volume
+   
     
 
 # Testing
@@ -30,5 +31,7 @@ print("cubeVolume2(5) =", cubeVolume2(5))
 print("cubeVolume2(-2) =", cubeVolume2(-2))
 
 print("cubeVolume3(5) =", cubeVolume3(5))
-print("cubeVolume3(-2) =", cubeVolume3(-2))
+
+x = cubeVolume3(-2)
+print("cubeVolume3(-2) =", x)
 
