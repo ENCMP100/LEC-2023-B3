@@ -20,7 +20,9 @@ print("----") # No blank line above this line
 sentense = " Hello World \n"
 sentense3 = sentense.rstrip()
 print(sentense)
+print("----") # Print a line after the previous print statements. See the blank line
 print(sentense3) # White space at the begining is retained.
+print("----") # Print a line after the previous print statements. See the blank line
 
 # Using STRIP and RSTRIP to strip non-white spaces
 url = "https://www.ualberta.ca/"

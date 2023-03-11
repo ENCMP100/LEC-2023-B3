@@ -8,6 +8,10 @@ myString3 = "He said 'hello'" # Here, single quotes inside the string are
 myString4 = 'He said "Hello"' # Here, the double quotes in the string are
                               # treated as just characters
 
+myString5 = "He said \"hello\" to Kelly's Father"
+print(myString5)
+
+
 # LEN functions returns the length of a string
 length1 = len(myString1)
 print("Length of myString1:", length1)
@@ -45,12 +49,13 @@ planeModel = "Boeing " + str(747) # Works! because the function STR converts
                                   # the number 747 into the string '747'
                                   
 myNum1 = int('1299') # INT function converts the string '1299' to number 1299
-myPrice = float(12.99) # converts the string to a floating point number 12.99
+myPrice = float("12.99") # converts the string to a floating point number 12.99
 
 # INT and FLOAT functions raise errors if the input is not a string 
 # representation of a valid numeric value. E.g. the followings raise errors
 x1 = int('2*2')
 x2 = float("2.3.4")
+x3 = int('2.5')
 
 
 ## String Methods
@@ -60,7 +65,7 @@ x2 = float("2.3.4")
 # similar to functions but they operate on the actual string, instead of 
 # working standalone. Methods are invoked using the dot (.) operator.
 
-name = "Olivia Rodriguez"
+name = "Olivia Rodrigo"
 
 # LOWER and UPPER methods
 print(name.lower())
