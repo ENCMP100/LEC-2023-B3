@@ -7,6 +7,11 @@
 fruits = {"Banana", "Apple", "Mango", "Cherry"}
 print(fruits) #Note the order can be different than what you specified
 
+# Creating an empty set
+emptySet = set()
+print(emptySet) # IMPORTANT: you cannot use {} to create an empty set because 
+              # {} creates an empty DICTIONARY, which we will learn next. 
+
 # ADD: adds another value to a se
 fruits.add("Pineapple")
 print(fruits)
@@ -37,6 +42,7 @@ print(fruits)
 # Converting a lits to a set
 flowerList = ["Rose", "Lily", "Tulip", "Orchid", "Tulip", "Tulip"]
 flowerSet = set(flowerList)
+
 
 #IN: Checks whether a value is in a set
 check1 = 'Tulip' in flowerSet
@@ -81,8 +87,8 @@ diff2 = italian.difference(british) # elements in italian but not in british
 print(diff2)
 
 
-## SET Examples
-## ============
+## SET Example
+## ===========
 
 # Finding Unique Words
 file = open('peter-piper.txt')
