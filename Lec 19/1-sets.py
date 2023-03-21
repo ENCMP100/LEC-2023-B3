@@ -23,6 +23,7 @@ fruits.add("Pineapple")
 fruits.add("Pineapple")
 print(fruits)
 
+
 # SORTED: returns a LIST that contains values in the SET sorted in 
 #         ascending order
 sortedFruits = sorted(fruits)
@@ -39,7 +40,7 @@ print("Number of values in set:", len(fruits))
 fruits.clear()
 print(fruits)
 
-# Converting a lits to a set
+# Converting a list to a set
 flowerList = ["Rose", "Lily", "Tulip", "Orchid", "Tulip", "Tulip"]
 flowerSet = set(flowerList)
 
@@ -91,10 +92,10 @@ print(diff2)
 ## ===========
 
 # Finding Unique Words
-file = open('peter-piper.txt')
+file = open('peter-piper.txt', 'r')
 uniqueWords = set()
 for line in file:
-    line = line.strip('\n.?,').lower()
+    line = line.rstrip('\n.?,').lower()
     words = line.split()
     for word in words:
         uniqueWords.add(word)

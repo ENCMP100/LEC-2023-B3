@@ -27,10 +27,7 @@ print("----") # Print a line after the previous print statements. See the blank 
 # Using STRIP and RSTRIP to strip non-white spaces
 url = "https://www.ualberta.ca/"
 
-urlWithoutTrailingSlash = url.rstrip("/")
-print(urlWithoutTrailingSlash)
-
-domainName = urlWithoutTrailingSlash.strip("https://")
+domainName = url.strip("htps:/")
 print(domainName)
 
 
