@@ -27,8 +27,14 @@ try:
     inFile.close()
 except IOError:
     print("Cannot open file", inFileName)
-    
+  
 except ValueError:
     print("Cannot convert to int:", line)
     inFile.close()
+ 
+except Exception: #Handles any other exeption
+    print("An uknown error happed")
+    inFile.close()
+
+print("Program completed ...")
 
