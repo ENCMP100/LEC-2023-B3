@@ -43,6 +43,7 @@ ax.set_aspect('equal') # same as ax.set_aspect(1)
 cir = Circle((50,50), 25)
 cir.set_facecolor('red')
 ax.add_patch(cir)
+cir.set_edgecolor('blue')
 
 # Drawing a gree rectangle of width 100, height 50
 # and placed at 100, 100 (xmin,ymin position).
