@@ -1,7 +1,6 @@
 #E Working with Images
 
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Loading the image
 img = plt.imread('mandrill.jpg')

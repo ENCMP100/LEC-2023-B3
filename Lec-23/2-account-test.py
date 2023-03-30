@@ -25,7 +25,7 @@ beth_account.withdraw(1500)
 beth_account.printInfo() # Balance should be -1049.50 with Over Draft fee
 
 # The following statement should raise an insufficient-balance exception
-beth_account.withdraw(1500)
+#beth_account.withdraw(1500)
 
 
 ## Reference Assignment

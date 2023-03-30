@@ -10,8 +10,9 @@
 
 def main():
     tally = Counter()
+        
+    t2 = Counter()
     
-    tally.reset()
     
     tally.click()
     print('Num Clicks', tally.getValue()) 
@@ -30,7 +31,7 @@ def main():
 class Counter:  
          
     # Resets the counter value
-    def reset(self):
+    def __init__(self):
         self._value = 0
     
     # Advances the counter value by 1
