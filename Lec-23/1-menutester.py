@@ -4,16 +4,16 @@
 
 from menu import Menu
 
-vegieMenu = Menu(["Leeks", "Yams", "Potatoes", ])
+vegieMenu = Menu(["Leeks", "Yams", "Potatoes"])
 vegieMenu.addOption("Beans") #Adds another item to the menu
-choice = vegieMenu.getInput("")
+choice = vegieMenu.getInput()
 print("You selected:", choice)
 
 
 
 fruitsMenu = Menu(["Apple", "Banana", "Orange", "Pineapple"])
 choice = fruitsMenu.getInput("Your favorite fruit:") # Custom prompt 
-print("You selected:", choice)
+print("You selected:", fruitsMenu._options[choice-1])
 
 
 
