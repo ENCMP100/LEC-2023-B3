@@ -13,7 +13,7 @@ class GorillasGame:
     
     # Constructor
     def __init__(self):
-        self._N = 11
+        self._N = 11 # number of building
         self._BW = 5
         self.setStage()        
         self._activePlayer = 0
