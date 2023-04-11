@@ -19,6 +19,7 @@ set2 = set(["Apple", "Orange", "Banana", "Orange"])
 dict_contacts = { "Fred": 7235591, "Mary": 3841212, "Bob": 3841212, "Sarah": 2213278 }
 dict_citizenships = { "Fred": "Canadian", "Mary": "American" }
 
+person = {"Name": "Sarah", "Age": 25, "Phone": "232323"}
 tuple1 = (3,5,7)
 
 ## Adding values

@@ -26,12 +26,16 @@ x = np.array([2,3])
 y = np.array([4,2])
 print(np.dot(x,y)) # 2x4 + 3x2 = 14
 
+
 # with Rank 2 (2D) arrays
 x2 = np.array([[1,2,3],[4,5,6]]) 
 y2 = np.array([[7,8],[9,10], [11,12]])
-print(x2)
-print(y2)
 
+print("x2")
+print(x2)
+print("22")
+print(y2)
+print("x2.y2")
 print(np.dot(x2,y2))
 
 

@@ -5,14 +5,14 @@ def main():
     try:
         
         filename = input('Enter GPA data file (gpa[1-4].txt): ')
-        # May raise IO error
+        
         fileOpenedSuccessfully = False
-        infile = open(filename)
+        infile = open(filename) # May raise IO error
         fileOpenedSuccessfully = True
         
         print("Data file opened successfully.")
         
-        gpa = loadGpas(infile)
+        gpa = loadGPAs(infile)
         
         print("GPA:")
         print(gpa)
@@ -23,6 +23,8 @@ def main():
         print("Value error: " + str(error))
     except RuntimeError as error:
         print("Runtime error: " + str(error))
+    except Exception:
+        print("Unknown Error")
     finally:
         if fileOpenedSuccessfully:
             infile.close()
@@ -30,7 +32,7 @@ def main():
     print("Program ended.")
 
 
-def loadGpas(file):
+def loadGPAs(file):
     gpaValues = []
     line = file.readline()
     while line != "":
