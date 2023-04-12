@@ -36,5 +36,5 @@ tan(radians(30))
 
 e_to_the_3 = exp(3)
 
-natural_log_of_20 = log(20)
+natural_log_of_1000 = log(1000)
 base_10_log_of_1000 = log(1000, 10)
