@@ -23,6 +23,8 @@ ax = plt.gca()
 
 # INVERT_YAXIS: inverts the y axis
 ax.invert_yaxis()
+ax.xaxis.set_visible(False)
+ax.yaxis.set_visible(False)
 
 plt.show() #complete the current figure
 

@@ -12,6 +12,7 @@ ax = plt.gca()
 ax.xaxis.set_visible(False)
 ax.yaxis.set_visible(False)
 
+
 ## Creating a full copy of img so that we can modify it.
 
 # Allocate img2 to be an n-dimensional array of zeros with 

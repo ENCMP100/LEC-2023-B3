@@ -10,7 +10,7 @@ infile = open("temp-1.csv", "r")
 # We cab read this file one line at a time until the end
 line = infile.readline()
 while line != "":
-    print(line) 
+    print(line, end="") 
     line = infile.readline()
 
 # The file must be closed after reading
@@ -44,7 +44,7 @@ while char != "":
                   # see the character-by-character printing
     char  = file.read(1)
 
-
+file.close()
 
 ## Writing to a Text File
 #  ======================

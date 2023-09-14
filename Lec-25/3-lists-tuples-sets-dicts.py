@@ -13,7 +13,7 @@ emptyDict2 = {}
 list1 = [1,2,3,2,5]
 list2 = ["Apple", "Orange", "Banana", "Orange"]
 
-set1 = set([1,2,3,2,5]) # duplicate values are ignored
+set1 = {1,2,3,2,5} # duplicate values are ignored
 set2 = set(["Apple", "Orange", "Banana", "Orange"])
 
 dict_contacts = { "Fred": 7235591, "Mary": 3841212, "Bob": 3841212, "Sarah": 2213278 }

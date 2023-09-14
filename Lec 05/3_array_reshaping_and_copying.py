@@ -21,7 +21,7 @@ print('v2:\n', x)
 
 # Reshaping v2 as a matrix (2-D array) of 2 rows and while letting reshape to
 # automatically calculate the number of columns 
-m1 = x.reshape(2, -1)
+m1 = x.reshape(5, -1)
 print('m1:\n', m1)
 
 # Reshaping v2 as a matrix of 3 columns and while letting reshape to
@@ -71,6 +71,8 @@ x3 = np.array([[1,2,3],
 
 x3_a = x3; #Create a reference copy by assignment
 x3_b = x3.view() # Create a shallow copy using the view function
+x3_c = x3.copy()
+
 print('x3.shape:', x3.shape)
 print('x3_a.shape:', x3_a.shape)
 print('x3_b.shape:', x3_b.shape)
